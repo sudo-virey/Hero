@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/IETAM/AndroidStudioProjects/Hero/app/src/main/res/layout/activity_detalle.xml" value="0.23346303501945526" />
+        <entry key="..\:/Users/IETAM/AndroidStudioProjects/Hero/app/src/main/res/layout/activity_facebook.xml" value="0.25393883225208524" />
+        <entry key="..\:/Users/IETAM/AndroidStudioProjects/Hero/app/src/main/res/layout/activity_lista_hero.xml" value="0.10572916666666667" />
+        <entry key="..\:/Users/IETAM/AndroidStudioProjects/Hero/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/IETAM/AndroidStudioProjects/Hero/app/src/main/res/layout/fragment_appearance.xml" value="0.2" />
+        <entry key="..\:/Users/IETAM/AndroidStudioProjects/Hero/app/src/main/res/layout/fragment_biography.xml" value="0.1" />
+        <entry key="..\:/Users/IETAM/AndroidStudioProjects/Hero/app/src/main/res/layout/fragment_connections.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/IETAM/AndroidStudioProjects/Hero/app/src/main/res/layout/fragment_first.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/IETAM/AndroidStudioProjects/Hero/app/src/main/res/layout/fragment_powerstats.xml" value="0.22" />
+        <entry key="..\:/Users/IETAM/AndroidStudioProjects/Hero/app/src/main/res/layout/fragment_work.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/IETAM/AndroidStudioProjects/Hero/app/src/main/res/layout/layout_item_hero.xml" value="0.18" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/powerstatsFragment">
+
+    <fragment
+        android:id="@+id/powerstatsFragment"
+        android:name="Heror.hero.view.PowerstatsFragment"
+        android:label="fragment_powerstats"
+        tools:layout="@layout/fragment_powerstats" >
+        <action
+            android:id="@+id/action_powerstatsFragment_to_biographyFragment"
+            app:destination="@id/biographyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/biographyFragment"
+        android:name="Heror.hero.view.BiographyFragment"
+        android:label="fragment_biography"
+        tools:layout="@layout/fragment_biography" >
+        <action
+            android:id="@+id/action_biographyFragment_to_appearanceFragment"
+            app:destination="@id/appearanceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/appearanceFragment"
+        android:name="Heror.hero.view.AppearanceFragment"
+        android:label="fragment_appearance"
+        tools:layout="@layout/fragment_appearance" >
+        <action
+            android:id="@+id/action_appearanceFragment_to_workFragment"
+            app:destination="@id/workFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/workFragment"
+        android:name="Heror.hero.view.WorkFragment"
+        android:label="fragment_work"
+        tools:layout="@layout/fragment_work" >
+        <action
+            android:id="@+id/action_workFragment_to_connectionsFragment"
+            app:destination="@id/connectionsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/connectionsFragment"
+        android:name="Heror.hero.view.ConnectionsFragment"
+        android:label="fragment_connections"
+        tools:layout="@layout/fragment_connections" >
+        <action
+            android:id="@+id/action_connectionsFragment_to_powerstatsFragment"
+            app:destination="@id/powerstatsFragment" />
+    </fragment>
+</navigation>
